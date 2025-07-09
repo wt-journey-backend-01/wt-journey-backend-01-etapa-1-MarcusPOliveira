@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  background: #f8fafc;
+  color: #2d3748;
+  margin: 0;
+  padding: 24px;
+  min-height: 100vh;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  color: #27364a;
+  margin-top: 32px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+form,
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 32px auto;
+  box-shadow: 0 2px 8px rgba(41, 50, 65, 0.07);
+  max-width: 400px;
+}
+
+label {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 6px;
+  color: #374151;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  font-size: 1rem;
+  /* margin-bottom: 16px; */
+  background: #f1f5f9;
+  color: #27364a;
+  box-sizing: border-box;
+  transition: border 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #7cb8f7;
+  outline: none;
+}
+
+button {
+  background: #4f8bc9;
+  color: #fff;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-weight: 500;
+}
+
+button:hover {
+  background: #396ba3;
+}
+
+a {
+  color: #4f8bc9;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #27364a;
+  text-decoration: underline;
+}
+
+hr {
+  margin: 32px 0;
+  border: none;
+  border-top: 1px solid #e5e7eb;
+}
+
+#menu > div {
+  background: #eef2f7;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  padding: 12px;
+  color: #27364a;
+}
+
+@media (max-width: 500px) {
+  form,
+  .card {
+    padding: 14px;
+    margin: 18px 6px;
+  }
+  h1,
+  h2 {
+    margin-top: 16px;
+    font-size: 1.2rem;
+  }
+}
